@@ -1,4 +1,4 @@
-package DO_IT_YOURSELF_PERSONAL_INFORMATION;
+packagge DO_IT_YOURSELF_PERSONAL_INFORMATION;
 
 import java.util.Scanner;
 
