@@ -21,7 +21,6 @@ public class Passengers {
         String driverFirstName = "Lito";
         String driverLastName = "Barber";
         String fullName = driverFirstName+ " " + driverLastName;
-        int letters = fullName.length();
 
         System.out.println("The bus made P" + fare + " after " + stops + " stops");
         System.out.println("Driver Name is " + fullName);
