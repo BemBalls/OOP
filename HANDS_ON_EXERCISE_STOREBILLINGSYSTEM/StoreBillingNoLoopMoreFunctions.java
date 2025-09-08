@@ -2,8 +2,8 @@ package HANDS_ON_EXERCISE_STOREBILLINGSYSTEM;
 import java.util.Scanner;
 
 public class StoreBillingNoLoopMoreFunctions {
-    private static Scanner scanner = new Scanner(System.in);
-    private static double total = 0.0;
+    static Scanner scanner = new Scanner(System.in);
+    static double total = 0.0;
 
     public static void main(String[] args) {
         processPurchase();
@@ -19,7 +19,7 @@ public class StoreBillingNoLoopMoreFunctions {
         
         if (choice < 1 || choice > 4) {
             System.out.println("Invalid item selected");
-            return;
+            System.exit(0);
         }
 
         double price = getItemPrice(choice);
@@ -32,7 +32,7 @@ public class StoreBillingNoLoopMoreFunctions {
     }
 
     public static void displayItems() {
-        System.out.println("==== Welcome to Paule Store ====");
+        System.out.println("==== Welcome to Bembi Store ====");
         System.out.println("");
         System.out.println("1. Soap - $30.00");
         System.out.println("2. Shampoo - $120.00");
